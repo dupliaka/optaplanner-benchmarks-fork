@@ -1,4 +1,4 @@
-# Optaplanner benchmarks fork 
+# Optaplanner benchmarks forks
 
 Micro benchmarks of Optaplanner examples for single-time
 performance measurements
