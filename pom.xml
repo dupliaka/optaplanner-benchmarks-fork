@@ -60,7 +60,7 @@
               <goal>shade</goal>
             </goals>
             <configuration>
-              <finalName>optaplanner-benchmark-forks</finalName>
+              <finalName>optaplanner-benchmarks-forks</finalName>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                   <resource>META-INF/kie.conf</resource>
