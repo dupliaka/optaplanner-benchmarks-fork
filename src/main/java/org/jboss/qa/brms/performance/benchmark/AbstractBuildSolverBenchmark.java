@@ -3,8 +3,6 @@ package org.jboss.qa.brms.performance.benchmark;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import org.jboss.qa.brms.performance.benchmark.cloudbalancing.CloudBalanceBuildSolverBenchmark;
-import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Fork;
 import org.openjdk.jmh.annotations.Measurement;
@@ -17,7 +15,6 @@ import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.Warmup;
 import org.openjdk.jmh.infra.Blackhole;
 import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
 
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 3)
