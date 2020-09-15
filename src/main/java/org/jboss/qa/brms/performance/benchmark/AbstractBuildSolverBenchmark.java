@@ -37,11 +37,11 @@ public abstract class AbstractBuildSolverBenchmark<Example> {
     }
 
     public SolverFactory<Example> getDrlSolverConfigFromXml() {
-        return SolverFactory.createFromXmlResource(getCsSolverConfigResource());
+        return SolverFactory.createFromXmlResource(getDrlSolverConfigResource());
     }
 
     public SolverFactory<Example> getCsSolverConfigFromXml() {
-        return SolverFactory.createFromXmlResource(getDrlSolverConfigResource());
+        return SolverFactory.createFromXmlResource(getCsSolverConfigResource());
     }
 
     public void iterateSolver(SolverFactory<Example> solverFactory, Blackhole blackhole) {
