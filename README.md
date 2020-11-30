@@ -16,7 +16,7 @@ that creates the load itself. Build the project with:
 
 Then execute the benchmark
 
-`java -jar ./target/optaplanner-benchmark-forks.jar  -jvmArgs "-Xms6144m -Xmx6144m" -v NORMAL -foe true -gc true -wi 4 -i 10 -f 10 -rf csv -rff results.csv`
+`java -jar ./target/optaplanner-benchmarks-forks.jar  -jvmArgs "-Xms6144m -Xmx6144m" -v NORMAL -foe true -gc true -wi 4 -i 10 -f 10 -rf csv -rff results.csv`
 
 - **buildSolverFactoryCs** benchmark of solution build on factory that used configuration for Constraint Stream provider class
 - **buildSolverFactoryDrl** benchmark of solution build on factory that used configuration for Drl 
