@@ -15,6 +15,9 @@
     <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
     <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
     <jmh.version>1.25</jmh.version>
+    <sonar.projectKey>dupliaka_cloud-balancing-solver-benchmark</sonar.projectKey>
+    <sonar.organization>dupliaka</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <repositories>
